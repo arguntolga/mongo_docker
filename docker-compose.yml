@@ -19,7 +19,7 @@ services:
     command: ['--auth', '--wiredTigerCacheSizeGB=1']
     networks:
       - mongo-network
-  # mongo-express:
+  # mongo-express:r
   #   container_name: mongo-express
   #   image: mongo-express
   #   restart: always
