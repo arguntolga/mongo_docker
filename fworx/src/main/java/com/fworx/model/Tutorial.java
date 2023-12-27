@@ -1,4 +1,4 @@
-package com.bezkoder.spring.data.mongodb.model;
+package com.fworx.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
