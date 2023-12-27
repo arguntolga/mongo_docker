@@ -12,6 +12,6 @@ db.createUser(
 )
 
 use ${MONGO_DB_NAME}
-db.createCollection("users")
-db.users.insert({"name": "john"})
+db.createCollection("xdata")
+db.xdata.insert({"value": "999"})
 EOF
